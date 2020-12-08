@@ -27,7 +27,6 @@ export default function({ coinKey, topSection }) {
             }
 
 
-
             return <TileClass
                 onClick={clickCoinHandler(topSection, coinKey, addCoin, removeCoin) }
             >
